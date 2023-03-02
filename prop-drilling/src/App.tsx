@@ -45,15 +45,15 @@ function sumNumbers(a: number, b: number) {
   return a + b;
 }
 
-function List({ items, render }) {
-  return (
-    <ul>
-      {items.map((item, index) => {
-        return render(item, index)
-      })}
-    </ul>
-  );
-}
+// function List({ items, render }) {
+//   return (
+//     <ul>
+//       {items.map((item, index) => {
+//         return render(item, index)
+//       })}
+//     </ul>
+//   );
+// }
 
 const Title = ({ children, size } : TitleProps) => {
   return (
